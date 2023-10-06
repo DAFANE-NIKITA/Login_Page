@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    border: 2px solid black;
+    width: 40%;
+    height: 350px;
+    margin-left: 30%;
+    margin-top: 11%;
+    background-color: #cedbd0;
+    border-style: inherit;
+}
+
+label {
+    margin-left: 20%;
+    font-weight: 800;
+}
+
+input[type="email"] {
+    margin-left: 45px;
+    width: 40%;
+    height: 30px;
+}
+
+label,
+input {
+    margin-top: 10%;
+}
+
+input[type="password"] {
+    margin-top: 4%;
+    width: 40%;
+    height: 30px;
+}
+
+.Forgot_btn {
+    margin-left: 15%;
+    color: blue;
+    font-weight: 500;
+}
+
+.BTN_LOGIN {
+    text-decoration: none;
+    color: white;
+    margin-left: 35%;
+    width: 40%;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: blue;
+    font-size: 1rem;
+    font-family: cursive;
+    text-align: start;
+    cursor: pointer;
+}
+
+
+/* FORGOT PAGE */
+
+.container {
+    border: 1px white;
+    border-style: dotted black;
+}
+
+.forgot_heading {
+    margin-left: 5%;
+    font-size: 1.5rem;
+    margin-top: 18%;
+}
+
+p {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.user-email {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.BTN_REQUEST {
+    text-decoration: none;
+    width: 60%;
+    height: 40px;
+    margin-left: 20%;
+    background-color: blueviolet;
+    color: white;
+    text-align: start;
+    font-size: 1rem;
+}
+
+#BACK_BTN {
+    text-decoration: none;
+    margin-left: 35%;
+    font-weight: 800;
+}
+
+.Login_Successful {
+    width: 30%;
+    height: 250px;
+    border: 2px solid black;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: greenyellow;
+    border-radius: 5%;
+    animation: border_color 5s infinite;
+    box-shadow: 3px 6px 8px black;
+}
+
+.fa-solid {
+    padding: 10px 8%;
+    position: absolute;
+    font-size: 7rem;
+    color: white;
+}
+
+.Successfull_heading {
+    margin-top: 50%;
+    text-align: center;
+}
+
+@keyframes border_color {
+    0% {
+        width: 25%;
+        border-color: brown;
+    }
+    10% {
+        width: 25%;
+        border-color: gold;
+    }
+    20% {
+        width: 25%;
+        border-color: lightcoral;
+    }
+    30% {
+        width: 25%;
+        border-color: black;
+    }
+    40% {
+        width: 25%;
+        border-color: white;
+    }
+    50% {
+        width: 25%;
+        border-color: red;
+    }
+    60% {
+        width: 25%;
+        border-color: blueviolet;
+    }
+    70% {
+        width: 25%;
+        border-color: lawngreen;
+    }
+    80% {
+        width: 25%;
+        border-color: darkorange;
+    }
+    90% {
+        width: 25%;
+        border-color: darkgreen;
+    }
+    100% {
+        width: 25%;
+        border-color: coral;
+    }
+}
